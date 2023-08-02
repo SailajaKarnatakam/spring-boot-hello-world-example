@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.sailaja.customercontoller.tests.CustomerControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.036 s <<< FAILURE! - in com.sailaja.customercontoller.tests.CustomerControllerTest
+testGetCustomerById_CustomerNotFound  Time elapsed: 0.019 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.sailaja.service.RewardsService.getCustomerById(java.lang.Integer)" because "this.rewardsService" is null
+	at com.sailaja.customercontoller.tests.CustomerControllerTest.testGetCustomerById_CustomerNotFound(CustomerControllerTest.java:59)
+
+testGetCustomerById_CustomerFound  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.sailaja.service.RewardsService.getCustomerById(java.lang.Integer)" because "this.rewardsService" is null
+	at com.sailaja.customercontoller.tests.CustomerControllerTest.testGetCustomerById_CustomerFound(CustomerControllerTest.java:46)
+
